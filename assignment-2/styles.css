@@ -1,0 +1,89 @@
+body { 
+    background-color: #ffc0cb;
+}
+
+p { color: cornflowerblue;
+}
+
+
+
+.p2 {font-family: Trebuchet Ms}
+.p2 {letter-spacing: 8px}
+
+.p3 {font-family: Arial} 
+.p3 {line-height: 3}
+
+.p4 {font-family: cursive}
+.p4 {text-align: right}
+
+.p5 {font-family: Georgia}
+
+.p6 {font-family: verdana}
+
+.p7 {font-family: Arial Narrow Bold }
+
+.p8 {font-family: Geneva}
+
+.p9 {font-family: fantasy}
+
+
+
+
+.roboto{
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.dotsbaby{
+  font-family: "Doto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.faculty {
+  font-family: "Faculty Glyphic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.borel {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.monsieur {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bangers {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite {
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+.bungee {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
