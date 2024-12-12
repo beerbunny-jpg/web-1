@@ -1,0 +1,76 @@
+.yellowbox {
+    background-color: yellow;
+    width: 600px;
+    padding: 20px 75px 50px 75px;
+}
+
+.greenbox {
+    background-color: limegreen;
+    padding: 20px 20px 20px 20px;
+    height: 190px;
+}
+
+.bluebox {
+    background-color: aqua;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.brownbox {
+    background-color: rosybrown;
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.tealbox {
+    background-color: teal;
+    padding: 20px 20px 20px 20px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.beigebox {
+    background-color: beige;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.blackbox {
+    background-color: black;
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.orangebox {
+    background-color: orange;
+    float: left;
+    margin-top: 20px;
+    width: 520px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.brownbox2 {
+    background-color: saddlebrown;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.brownbox2 {
+    color: white;
+    font-size: 18px;
+}
