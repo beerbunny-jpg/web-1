@@ -9,17 +9,55 @@ p { color: cornflowerblue;
 }
 
 h1 {
-    color:#7b6bef;
+    color:#b73f3f;
     text-align: center;
   font-family: Borel;  
-
-
-}
+ 
+} 
 
 h2 {
     color: #3c3c3c;
     text-align: center;
    font-family: Borel;
+}
+
+.pink-container {
+  
+    background-color: none;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #b73f3f;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+ .cross-stitch { 
+        background-image: url("../images/cross-stitch-heart.png");
+        width: 10;
+        height: 100px;
+        object-position: center;
+
+}
+
+.cross-stitch2 {
+       background-image: url("../images/cross-stitch-heart2.png");
+       width: 5;
+       height: 100px;
+       object-position:left;
+}
+
+
+.heart-container1 {
+    float:left;
+}
+
+.heart-container2 {
+    float:right;
 }
 
 .noto-sans {
