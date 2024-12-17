@@ -1,15 +1,67 @@
 body { 
-    background-color: #ffc0cb;
+    background-color: #fff1f3;
+   font-family: Playfair Display;
 }
 
 p { color: cornflowerblue;
+    text-align: center;
+    font-family: Playfair Display;
 }
 
 h1 {
-    color:crimson;
+    color:#7b6bef;
+    text-align: center;
+  font-family: Borel;  
+
+
 }
 
 h2 {
-    color: brown;
+    color: #3c3c3c;
+    text-align: center;
+   font-family: Borel;
 }
 
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.borel-regular {
+  font-family: "Borel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+a:link, a:visited {
+  background-color: #ffd9ad;
+  color: white;
+  padding-block: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center;
+  text-decoration: none;
+ border-radius: 20px;
+ border: 4px double #fff;
+ align-content: center;display: grid;
+ 
+}
+
+a:hover, a:active {
+  background-color: white;
+}
