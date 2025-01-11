@@ -1,0 +1,75 @@
+body {
+    background-color: beige
+}
+
+
+
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.link-back {
+    font-family: Open Sans;
+    text-align: center;
+}
+
+.header {
+    font-family: Open Sans;
+    text-align: center;
+}
+
+.header-image {
+    background-image: url("../images/cool-image-1.jpg");
+        width: 450px;
+        height: 300px;
+        margin: 25px auto;
+}
+
+
+.basic-info {
+  
+    background-color: none;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #b73f3f;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Open Sans;
+}
+
+
+.imageleft {
+    contain: content;
+    align-content: center;
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text1 {
+    text-align: left;
+}
+
+.imageright {
+    contain: content;
+    align-content: center;
+    float: right;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+    
+
