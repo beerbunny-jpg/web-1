@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Above overwrites so we can add things ourselves */ 
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+
+.thornbloomlogo {
+    width: 140px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.hero { 
+    background-image: url(../images/banner-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white; 
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-position: bottom;
+    
+}
+
+
+a:link, a:visited {
+  background-color: none;
+  color: #000000;
+  float:inline;
+  text-align: center;
+  padding: left;
+  text-decoration: none;
+  align-content: center; 
+ 
+}
+
+
+.learnmore a {
+    color: white;
+    background-color: navy;
+    text-align: center;
+    float: left inline;
+    padding: 10px;
+    padding-block: 10px;  
+    margin-top: 50px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+
+
+.lowerbuttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+
+.description-button-1 {
+    color: white;
+    background-color: navy;
+    text-align: center;
+    float: none;
+    padding: 20px;
+    padding-block: 10px;
+    border: solid 4px;
+    
+    
+    
+}
+
+.description-button-2 {
+    background-color: #ffffff;
+    text-align: center;
+    float: left inline;
+    padding: 10px;
+    border: solid 4px;
+    border-color: navy;
+    
+    
+}
+
+
+
+.callout1 {
+    display: flex;
+    height: 150px;
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-width: 150px;
+    
+}
+
+
+
+.callout-text-1 {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 40px;
+    min-width: 100px;
+    overflow-wrap: break-word;
+    flex: wrap; 
+
+  
+}
+
+
+
+.callout-text-2 {
+   display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-right: 40px;
+    min-width: 100px;
+    overflow-wrap: break-word;
+    flex: wrap;
+    
+    
+}
+
+
+.callout2 {
+    display: flex;
+    height: 150px;
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-width: 150px;
+}
+
+.callout3 {
+    display: flex;
+    height: 150px;
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-width: 150px;
+   
+}
+
+.callout-text-3 {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 40px;
+    min-width: 100px;
+    overflow-wrap: break-word;
+    flex: wrap; 
+    
+}
+
+.callout-text-4 {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-right: 40px;
+    min-width: 100px;
+    overflow-wrap: break-word;
+    flex: wrap; 
+    
+}
+
+.callout4 {
+    display: flex;
+    height: 150px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-width: 150px;
+}
+
+.thornbloom-logo-footer {
+    display: flex;
+    align-content: left;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+
+.contact {
+    align-content: left;
+    
+}
+
+.cart-payment {
+    display: flex;
+    height: auto;
+    align-content: right; 
+}
+
+.paymenticons {
+    display: flex; 
+    align-content: right; 
+    
+}
