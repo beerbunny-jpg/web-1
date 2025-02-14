@@ -1,0 +1,304 @@
+* {
+    padding: 0; 
+    margin: 0; 
+}
+
+h1 { 
+    font-family: "Aoboshi One", serif; 
+    font-size: 64px; 
+    }
+
+h2 {
+    font-family: "Aoboshi One", serif; 
+    font-size: 32px; 
+}
+
+h3 {
+    font-family: "Aoboshi One", serif; 
+    font-size: 20px; 
+}
+
+
+
+.button {
+    font-family: "Inter", bold;
+}
+
+h5 { 
+    font-family: "Inter", bold;
+}
+
+
+/* Navigation */ 
+
+header {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.left-items {
+    width: 100%; 
+    
+}
+
+.logo {
+    width: 127px; 
+    height: 40px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    gap: 24px;
+    width: 100%; 
+}
+
+/* Hero Banner */ 
+
+.hero { 
+    display:flex; 
+    flex-direction: column; 
+    gap: 16px; 
+    justify-content: center; 
+    align-items: center; 
+    height: 548px; 
+    padding: 0 16px; 
+    background-image: url(../images/banners/hero-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.button {
+    padding: 8px 24px; 
+    background-color: #FEC900; 
+    text-decoration: none; 
+    color: #000000; 
+}
+
+
+.men-header {
+    display: flex;
+    align-items: center; 
+    padding: 40px 60px;
+   
+}
+
+.mennewarrivals {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.view-all-right {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Inter", bold; 
+    align-items: right; 
+    padding-left: 50%;
+    gap: 24px;
+}
+
+.men-product {
+    
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+.men-product-img-1 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 262px; 
+    height: 370px; 
+    
+}
+
+.men-product-img-2 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.men-product-img-3 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.men-product-img-4 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.women-header {
+    display: flex;
+    align-items: center; 
+    padding: 40px 60px;
+   
+}
+
+.womennewarrivals {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+}
+
+.women-product {
+    
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+.women-product-img-1 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.women-product-img-2 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.women-product-img-3 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.women-product-img-4 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/** Footer **/ 
+
+.footer-image {
+        
+    
+
+    display:flex; 
+    flex-direction: column; 
+    gap: 16px; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 548px; 
+    padding: 0 16px; 
+    background-image: url(../images/banners/sale-bg.jpg);
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer-text {
+    flex-direction: column; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    text-align: left;
+    gap: 16px;
+}
+
+.button2 {
+     padding: 8px 24px; 
+    background-color: #000000; 
+    text-decoration: none; 
+    color: #FEC900;
+    font-family: "Inter";
+}
+
+/** Footer Box **/ 
+
+.footer-box {
+    background-color: black; 
+    padding: 100px;
+    display: flex; 
+    color: white;
+    
+}
+
+
+
+.logo2 {
+    width: 127px; 
+    height: 40px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+}
+.tm {
+    display: flex; 
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.zenin-links {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 16px; 
+}
+
+.zenin-links-1 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+    padding: 10px; 
+    gap: 30px; 
+}
+
+.zenin-links-2 {
+     display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+    padding: 10px; 
+    gap: 30px; 
+}
+
+.zenin-links-3 {
+ display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+    padding: 10px; 
+    gap: 30px; 
+}
+
+.social-links {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+    padding: 10px; 
+}
