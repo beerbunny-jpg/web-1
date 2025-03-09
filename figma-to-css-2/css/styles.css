@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* font-family: "Manrope", sans-serif; */
+
+
+/** First Section recreation **/
+
+.text {
+    
+    
+    align-content: center;
+    padding: 120px;
+    background-color: paleturquoise
+    
+}
+
+h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+    gap: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    gap: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.badge1 {
+    margin: auto;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: black;
+    border: 1px solid; 
+    border-radius: 20px; 
+    width: fit-content;
+    text-align: center;
+}
+
+
+/* Second section */
+
+.CTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px; 
+    padding:  80px;
+    background-color: yellow;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+}
+
+.access {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+}
+
+.signup {
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 321px;
+    height: 54px;
+}
+
+.email {
+     margin: auto;
+    font-family: "Manrope", sans-serif;
+    color: black;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid; 
+    border-radius: 20px; 
+    width: fit-content;
+    text-align: center;
+   
+    
+}
+
+.subscribe {
+    margin: auto;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: black;
+    border: 1px solid; 
+    border-radius: 20px; 
+    width: fit-content;
+    text-align: center;
+    
+}
+
+  
+/** 
+ *  display: flex;
+    font-size: 18px;
+    padding: 17px 35px;
+    background-color: white;
+    border: 1px black;
+    border-radius: 20px; 
+    text-align: left;
+
+
+/** Example sections from class 
+
+section {
+    padding: 80px 16px;
+    display: flex; 
+    justify-content: center;
+}
+
+.inner-frame {
+    display: flex; 
+    gap: 50px; 
+    max-width: 1340px; 
+    
+}
+
+.column-one {
+    display: flex; 
+    flex-direction: column;
+    gap: 30px; 
+    width: 100%; 
+    
+}
+
+img {
+    width: 100%; 
+    object-fit: cover;
+    
+}
+
+
+
+
+
+.column-two {
+    height: 0;
+    min-height: 100%;
+}
+
+**/
+
