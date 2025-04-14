@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1440px;
+    contain: content;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+
+.playwrite-au-tas {
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+.navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: Playwrite AU TAS;
+    background-color: #ffb100;
+}
+
+nav a {
+    text-decoration: none;
+    color: #432d04;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+
+.logo-banner {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 1280px;
+    max-height: 720px;
+}
+
+.aboutme {
+    display: flex; 
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: yellow;
+    padding-top: 80px;
+    padding-left: 300px;
+    padding-bottom: 80px;
+}
+
+.aboutme-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 300px;
+    padding: 40px; 
+    font-family: Nunito;
+    font-size: larger
+}
+
+.aboutme-image {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 300px;
+    padding: 40px;
+    
+}
+
+/* RESPONSIVE LAYOUTS */
+
+
+@media only screen and (max-width: 768px) {
+
+   
+    .navigation .nav a {
+        flex-direction: column;
+        gap: 20px; 
+    }
+   
+    .aboutme-text {
+        flex-direction: column;
+        padding: none;
+    }
+
+    .aboutme-image {
+        flex-direction: column;
+        padding: none;
+    }
+
+}
