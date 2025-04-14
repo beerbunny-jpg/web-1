@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1440px;
+    contain: content;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+
+.playwrite-au-tas {
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+.navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: Playwrite AU TAS;
+    background-color: #ffb100;
+}
+
+nav a {
+    text-decoration: none;
+    color: #432d04;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+
+.logo-banner {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 1280px;
+    max-height: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.photogrid-bg {
+  background-color: #f4f40a;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* RESPONSIVE LAYOUTS */
+
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
